@@ -1,0 +1,51 @@
+id,name,street,zip,city,region,country,latitude,longitude,opening_hours
+1,Knižnica Trsťany,Mudroňova 89,726 11,Vrútky,Košický,Czech Republic,-50.588131,-16.657097,"Po, St, Pi 9:00-15:00"
+2,Knižnica Zruč nad Sázavou,Nový záhon 396,512 83,Příbor,Moravskoslezský,Czech Republic,-81.4861085,76.551302,Po-Št 8:00-18:00
+3,Knižnica Dubovce,Černá 330,445 65,Mikulov,Praha,Slovakia,55.6120265,-83.141017,Po-Pá 10:00-16:00
+4,Knižnica Kamenné Kosihy,Hečkova 4,594 61,Nitrica,Košický,Slovakia,49.170511,-160.654511,"Po, St, Pi 9:00-15:00"
+5,Knižnica Mimoň,Pařížská 2,883 68,Šarišské Dravce,Středočeský,Slovakia,-26.670629,129.40875,Po-Pá 10:00-16:00
+6,Knižnica Rovné,Žižkova 93,300 96,Všeruby,Jihomoravský,Slovakia,-27.0718375,156.49556,Po-Št 8:00-18:00
+7,Knižnica Lipová,Mladoboleslavská 9,205 14,Hodkovce,Olomoucký,Czech Republic,24.4717285,-161.344074,"Po, St, Pi 9:00-15:00"
+8,Knižnica Stráž pod Ralskem,U Společenské Zahrady 5,415 40,Bogliarka,Košický,Slovakia,-3.6045735,52.650462,"Po, St, Pi 9:00-15:00"
+9,Knižnica Kočín - Lančár,Narcisová 2,788 65,Kátov,Královéhradecký,Slovakia,-45.1547015,-76.564123,"Po, St, Pi 9:00-15:00"
+10,Knižnica Oreské,Ulica svornosti 93,020 17,Golčův Jeníkov,Olomoucký,Czech Republic,60.3541195,-119.248565,Po-Št 8:00-18:00
+11,Knižnica Železná Ruda,Gaštanová 765,861 39,Chýnov,Jihomoravský,Slovakia,18.5728335,97.072612,"Po, St, Pi 9:00-15:00"
+12,Knižnica Málinec,Brezovská 4,520 67,Horní Jelení,Královéhradecký,Czech Republic,38.4892415,146.270584,"Po, St, Pi 9:00-15:00"
+13,Knižnica Licince,Štěchovická 151,991 10,Hradec Králové,Olomoucký,Slovakia,-25.971904,-93.425079,"Po, St, Pi 9:00-15:00"
+14,Knižnica Korunková,Námestie slobody 8,614 99,Karlovy Vary,Košický,Czech Republic,-13.8078405,147.912486,Po-Pá 10:00-16:00
+15,Knižnica Vysoká,Kodicilova 72,214 41,Nitra,Moravskoslezský,Czech Republic,-65.113564,-160.284298,"Po, St, Pi 9:00-15:00"
+16,Knižnica Sedlice,Palackého 851,067 13,Planá,Košický,Czech Republic,-47.187088,96.50908,Po-Št 8:00-18:00
+17,Knižnica Lomná,Družná 65,494 58,Hanušovice,Plzeňský,Czech Republic,68.303138,-85.284309,"Po, St, Pi 9:00-15:00"
+18,Knižnica Klin,Vršovka 5,124 27,Husinec,Trnavský,Slovakia,60.564869,-110.899384,Po-Pá 10:00-16:00
+19,Knižnica Horní Jiřetín,Mlynské nivy 3,599 17,Lipovec,Banskobystrický,Czech Republic,-47.335052,-135.336756,Po-Pi 9:00-17:00
+20,Knižnica Hroznětín,Na Kuthence 57,066 83,Čenkovce,Praha,Slovakia,-55.9912185,167.433875,Po-Št 8:00-18:00
+21,Knižnica Nedožery - Brezany,Spolupráce 86,139 33,Vysoká,Praha,Slovakia,-48.029659,13.108963,Po-Št 8:00-18:00
+22,Knižnica Tišnov,Senná 7,088 94,Nový Bydžov,Středočeský,Czech Republic,-83.9818165,178.826503,Po-Pá 10:00-16:00
+23,Knižnica Trnava,V Padolině 503,982 37,Nové Hrady,Moravskoslezský,Slovakia,11.8087795,56.125805,Po-Št 8:00-18:00
+24,Knižnica Přimda,Úvozná 120,229 78,Práznovce,Bratislavský,Slovakia,30.010449,-20.955413,Po-Pá 10:00-16:00
+25,Knižnica Nitra nad Ipľom,Septimiova 486,570 67,Rovensko pod Troskami,Jihomoravský,Czech Republic,58.821144,-5.198156,Po-Št 8:00-18:00
+26,Knižnica Nová Polhora,Fügnerovo Náměstí 197,953 71,Sádočné,Olomoucký,Slovakia,-29.137429,167.077273,Po-Pá 10:00-16:00
+27,Knižnica Valča,Fibichova 23,610 28,Kamenná Poruba,Prešovský,Czech Republic,-85.576666,127.324594,Po-Pi 9:00-17:00
+28,Knižnica Chomutov,Pri Habánskom mlyne 588,202 52,Volary,Nitriansky,Slovakia,-68.308707,-173.490937,Po-Pi 9:00-17:00
+29,Knižnica Frýdek-Místek,Purkyňova 463,686 89,Malá Čausa,Plzeňský,Czech Republic,42.4979995,38.493988,Po-Pi 9:00-17:00
+30,Knižnica Staré Město (okres Uherské Hradiště),Segnerova 669,757 46,Jastrabie pri Michalovciach,Středočeský,Czech Republic,69.6234,-132.52198,Po-Št 8:00-18:00
+31,Knižnica Nižný Orlík,Josefa Šimůnka 977,453 73,Potok,Praha,Czech Republic,-66.8081045,87.053222,Po-Št 8:00-18:00
+32,Knižnica Kaznějov,Kremnická 656,097 94,Rudinská,Moravskoslezský,Slovakia,-77.0387545,26.251065,Po-Pi 9:00-17:00
+33,Knižnica Malá nad Hronom,Drieňová 8,994 31,Beckov,Plzeňský,Slovakia,43.340363,-47.327929,"Po, St, Pi 9:00-15:00"
+34,Knižnica Jakubovany,K Nádrži 99,065 63,Košolná,Bratislavský,Slovakia,59.4973465,-83.036023,Po-Pá 10:00-16:00
+35,Knižnica Jarovnice,Jarešova 825,019 38,Kaplice,Prešovský,Czech Republic,-69.8499585,66.205482,Po-Pá 10:00-16:00
+36,Knižnica Sedlec-Prčice,Ambrušova 271,974 16,Trnava,Jihomoravský,Slovakia,74.2308485,-5.249429,Po-Pá 10:00-16:00
+37,Knižnica Žlutice,Jasná I 155,097 00,Harrachov,Nitriansky,Slovakia,-45.197515,-34.895608,Po-Pá 10:00-16:00
+38,Knižnica Kalameny,Dulovo námestie 2,222 12,Pacov,Košický,Czech Republic,79.860646,-26.031742,"Po, St, Pi 9:00-15:00"
+39,Knižnica Šiba,Pri dvore 7,046 29,Sobotka,Olomoucký,Czech Republic,25.88673,-176.336616,Po-Št 8:00-18:00
+40,Knižnica Kardašova Řečice,Mukařovského 871,757 82,Holýšov,Olomoucký,Czech Republic,-56.386249,-108.809369,Po-Pá 10:00-16:00
+41,Knižnica Stará Myjava,Zdravotnícka 65,402 01,Dechtice,Žilinský,Slovakia,65.8104055,74.428098,Po-Pá 10:00-16:00
+42,Knižnica Mikulov,Orechová 250,518 22,Plánice,Bratislavský,Slovakia,-28.6950435,-100.972258,Po-Pá 10:00-16:00
+43,Knižnica Třebechovice pod Orebem,Dubnická 21,445 93,Kralovice,Středočeský,Slovakia,2.031907,29.286106,"Po, St, Pi 9:00-15:00"
+44,Knižnica Kamenický Šenov,Rýmařovská 32,261 56,Kunovice,Žilinský,Czech Republic,-79.703982,-102.793803,"Po, St, Pi 9:00-15:00"
+45,Knižnica Třebechovice pod Orebem,Na varte 7,135 39,Konice,Moravskoslezský,Slovakia,-46.7212765,-37.355912,Po-Pi 9:00-17:00
+46,Knižnica Nová Role,Pohořelec 16,945 71,Závadka,Plzeňský,Slovakia,-45.7649175,56.698254,Po-Št 8:00-18:00
+47,Knižnica Trenčín,Verdunská 8,105 75,Praha,Banskobystrický,Slovakia,75.3461135,-17.40394,"Po, St, Pi 9:00-15:00"
+48,Knižnica Morkovice-Slížany,Purkyňova 3,977 25,Priekopa,Olomoucký,Czech Republic,8.703081,92.503749,Po-Pi 9:00-17:00
+49,Knižnica Koválov,Spinozova 803,053 03,Stráňany,Jihomoravský,Czech Republic,-9.9188855,-166.837171,"Po, St, Pi 9:00-15:00"
+50,Knižnica Uhliská,Černicová 6,235 55,Kráľov Brod,Prešovský,Slovakia,-30.46864,158.382064,Po-Pi 9:00-17:00

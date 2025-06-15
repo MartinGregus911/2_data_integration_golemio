@@ -1,0 +1,904 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Knižnica Trsťany",
+      "address": {
+        "street": "Mudroňova 89",
+        "zipCode": "726 11",
+        "city": "Vrútky",
+        "region": "Košický",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -50.588131,
+        "lon": -16.657097
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Knižnica Zruč nad Sázavou",
+      "address": {
+        "street": "Nový záhon 396",
+        "zipCode": "512 83",
+        "city": "Příbor",
+        "region": "Moravskoslezský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -81.4861085,
+        "lon": 76.551302
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Knižnica Dubovce",
+      "address": {
+        "street": "Černá 330",
+        "zipCode": "445 65",
+        "city": "Mikulov",
+        "region": "Praha",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 55.6120265,
+        "lon": -83.141017
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Knižnica Kamenné Kosihy",
+      "address": {
+        "street": "Hečkova 4",
+        "zipCode": "594 61",
+        "city": "Nitrica",
+        "region": "Košický",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 49.170511,
+        "lon": -160.654511
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Knižnica Mimoň",
+      "address": {
+        "street": "Pařížská 2",
+        "zipCode": "883 68",
+        "city": "Šarišské Dravce",
+        "region": "Středočeský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -26.670629,
+        "lon": 129.40875
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Knižnica Rovné",
+      "address": {
+        "street": "Žižkova 93",
+        "zipCode": "300 96",
+        "city": "Všeruby",
+        "region": "Jihomoravský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -27.0718375,
+        "lon": 156.49556
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Knižnica Lipová",
+      "address": {
+        "street": "Mladoboleslavská 9",
+        "zipCode": "205 14",
+        "city": "Hodkovce",
+        "region": "Olomoucký",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 24.4717285,
+        "lon": -161.344074
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Knižnica Stráž pod Ralskem",
+      "address": {
+        "street": "U Společenské Zahrady 5",
+        "zipCode": "415 40",
+        "city": "Bogliarka",
+        "region": "Košický",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -3.6045735,
+        "lon": 52.650462
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Knižnica Kočín - Lančár",
+      "address": {
+        "street": "Narcisová 2",
+        "zipCode": "788 65",
+        "city": "Kátov",
+        "region": "Královéhradecký",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -45.1547015,
+        "lon": -76.564123
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Knižnica Oreské",
+      "address": {
+        "street": "Ulica svornosti 93",
+        "zipCode": "020 17",
+        "city": "Golčův Jeníkov",
+        "region": "Olomoucký",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 60.3541195,
+        "lon": -119.248565
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Knižnica Železná Ruda",
+      "address": {
+        "street": "Gaštanová 765",
+        "zipCode": "861 39",
+        "city": "Chýnov",
+        "region": "Jihomoravský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 18.5728335,
+        "lon": 97.072612
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Knižnica Málinec",
+      "address": {
+        "street": "Brezovská 4",
+        "zipCode": "520 67",
+        "city": "Horní Jelení",
+        "region": "Královéhradecký",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 38.4892415,
+        "lon": 146.270584
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Knižnica Licince",
+      "address": {
+        "street": "Štěchovická 151",
+        "zipCode": "991 10",
+        "city": "Hradec Králové",
+        "region": "Olomoucký",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -25.971904,
+        "lon": -93.425079
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Knižnica Korunková",
+      "address": {
+        "street": "Námestie slobody 8",
+        "zipCode": "614 99",
+        "city": "Karlovy Vary",
+        "region": "Košický",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -13.8078405,
+        "lon": 147.912486
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Knižnica Vysoká",
+      "address": {
+        "street": "Kodicilova 72",
+        "zipCode": "214 41",
+        "city": "Nitra",
+        "region": "Moravskoslezský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -65.113564,
+        "lon": -160.284298
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Knižnica Sedlice",
+      "address": {
+        "street": "Palackého 851",
+        "zipCode": "067 13",
+        "city": "Planá",
+        "region": "Košický",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -47.187088,
+        "lon": 96.50908
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Knižnica Lomná",
+      "address": {
+        "street": "Družná 65",
+        "zipCode": "494 58",
+        "city": "Hanušovice",
+        "region": "Plzeňský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 68.303138,
+        "lon": -85.284309
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Knižnica Klin",
+      "address": {
+        "street": "Vršovka 5",
+        "zipCode": "124 27",
+        "city": "Husinec",
+        "region": "Trnavský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 60.564869,
+        "lon": -110.899384
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Knižnica Horní Jiřetín",
+      "address": {
+        "street": "Mlynské nivy 3",
+        "zipCode": "599 17",
+        "city": "Lipovec",
+        "region": "Banskobystrický",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -47.335052,
+        "lon": -135.336756
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Knižnica Hroznětín",
+      "address": {
+        "street": "Na Kuthence 57",
+        "zipCode": "066 83",
+        "city": "Čenkovce",
+        "region": "Praha",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -55.9912185,
+        "lon": 167.433875
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Knižnica Nedožery - Brezany",
+      "address": {
+        "street": "Spolupráce 86",
+        "zipCode": "139 33",
+        "city": "Vysoká",
+        "region": "Praha",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -48.029659,
+        "lon": 13.108963
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Knižnica Tišnov",
+      "address": {
+        "street": "Senná 7",
+        "zipCode": "088 94",
+        "city": "Nový Bydžov",
+        "region": "Středočeský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -83.9818165,
+        "lon": 178.826503
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Knižnica Trnava",
+      "address": {
+        "street": "V Padolině 503",
+        "zipCode": "982 37",
+        "city": "Nové Hrady",
+        "region": "Moravskoslezský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 11.8087795,
+        "lon": 56.125805
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Knižnica Přimda",
+      "address": {
+        "street": "Úvozná 120",
+        "zipCode": "229 78",
+        "city": "Práznovce",
+        "region": "Bratislavský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 30.010449,
+        "lon": -20.955413
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Knižnica Nitra nad Ipľom",
+      "address": {
+        "street": "Septimiova 486",
+        "zipCode": "570 67",
+        "city": "Rovensko pod Troskami",
+        "region": "Jihomoravský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 58.821144,
+        "lon": -5.198156
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Knižnica Nová Polhora",
+      "address": {
+        "street": "Fügnerovo Náměstí 197",
+        "zipCode": "953 71",
+        "city": "Sádočné",
+        "region": "Olomoucký",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -29.137429,
+        "lon": 167.077273
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Knižnica Valča",
+      "address": {
+        "street": "Fibichova 23",
+        "zipCode": "610 28",
+        "city": "Kamenná Poruba",
+        "region": "Prešovský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -85.576666,
+        "lon": 127.324594
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Knižnica Chomutov",
+      "address": {
+        "street": "Pri Habánskom mlyne 588",
+        "zipCode": "202 52",
+        "city": "Volary",
+        "region": "Nitriansky",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -68.308707,
+        "lon": -173.490937
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Knižnica Frýdek-Místek",
+      "address": {
+        "street": "Purkyňova 463",
+        "zipCode": "686 89",
+        "city": "Malá Čausa",
+        "region": "Plzeňský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 42.4979995,
+        "lon": 38.493988
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Knižnica Staré Město (okres Uherské Hradiště)",
+      "address": {
+        "street": "Segnerova 669",
+        "zipCode": "757 46",
+        "city": "Jastrabie pri Michalovciach",
+        "region": "Středočeský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 69.6234,
+        "lon": -132.52198
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Knižnica Nižný Orlík",
+      "address": {
+        "street": "Josefa Šimůnka 977",
+        "zipCode": "453 73",
+        "city": "Potok",
+        "region": "Praha",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -66.8081045,
+        "lon": 87.053222
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Knižnica Kaznějov",
+      "address": {
+        "street": "Kremnická 656",
+        "zipCode": "097 94",
+        "city": "Rudinská",
+        "region": "Moravskoslezský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -77.0387545,
+        "lon": 26.251065
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Knižnica Malá nad Hronom",
+      "address": {
+        "street": "Drieňová 8",
+        "zipCode": "994 31",
+        "city": "Beckov",
+        "region": "Plzeňský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 43.340363,
+        "lon": -47.327929
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Knižnica Jakubovany",
+      "address": {
+        "street": "K Nádrži 99",
+        "zipCode": "065 63",
+        "city": "Košolná",
+        "region": "Bratislavský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 59.4973465,
+        "lon": -83.036023
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Knižnica Jarovnice",
+      "address": {
+        "street": "Jarešova 825",
+        "zipCode": "019 38",
+        "city": "Kaplice",
+        "region": "Prešovský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -69.8499585,
+        "lon": 66.205482
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Knižnica Sedlec-Prčice",
+      "address": {
+        "street": "Ambrušova 271",
+        "zipCode": "974 16",
+        "city": "Trnava",
+        "region": "Jihomoravský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 74.2308485,
+        "lon": -5.249429
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Knižnica Žlutice",
+      "address": {
+        "street": "Jasná I 155",
+        "zipCode": "097 00",
+        "city": "Harrachov",
+        "region": "Nitriansky",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -45.197515,
+        "lon": -34.895608
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Knižnica Kalameny",
+      "address": {
+        "street": "Dulovo námestie 2",
+        "zipCode": "222 12",
+        "city": "Pacov",
+        "region": "Košický",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 79.860646,
+        "lon": -26.031742
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Knižnica Šiba",
+      "address": {
+        "street": "Pri dvore 7",
+        "zipCode": "046 29",
+        "city": "Sobotka",
+        "region": "Olomoucký",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 25.88673,
+        "lon": -176.336616
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Knižnica Kardašova Řečice",
+      "address": {
+        "street": "Mukařovského 871",
+        "zipCode": "757 82",
+        "city": "Holýšov",
+        "region": "Olomoucký",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -56.386249,
+        "lon": -108.809369
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Knižnica Stará Myjava",
+      "address": {
+        "street": "Zdravotnícka 65",
+        "zipCode": "402 01",
+        "city": "Dechtice",
+        "region": "Žilinský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 65.8104055,
+        "lon": 74.428098
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Knižnica Mikulov",
+      "address": {
+        "street": "Orechová 250",
+        "zipCode": "518 22",
+        "city": "Plánice",
+        "region": "Bratislavský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -28.6950435,
+        "lon": -100.972258
+      },
+      "opening_hours": {
+        "cs": "Po-Pá 10:00-16:00"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Knižnica Třebechovice pod Orebem",
+      "address": {
+        "street": "Dubnická 21",
+        "zipCode": "445 93",
+        "city": "Kralovice",
+        "region": "Středočeský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 2.031907,
+        "lon": 29.286106
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Knižnica Kamenický Šenov",
+      "address": {
+        "street": "Rýmařovská 32",
+        "zipCode": "261 56",
+        "city": "Kunovice",
+        "region": "Žilinský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -79.703982,
+        "lon": -102.793803
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Knižnica Třebechovice pod Orebem",
+      "address": {
+        "street": "Na varte 7",
+        "zipCode": "135 39",
+        "city": "Konice",
+        "region": "Moravskoslezský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -46.7212765,
+        "lon": -37.355912
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Knižnica Nová Role",
+      "address": {
+        "street": "Pohořelec 16",
+        "zipCode": "945 71",
+        "city": "Závadka",
+        "region": "Plzeňský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -45.7649175,
+        "lon": 56.698254
+      },
+      "opening_hours": {
+        "cs": "Po-Št 8:00-18:00"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Knižnica Trenčín",
+      "address": {
+        "street": "Verdunská 8",
+        "zipCode": "105 75",
+        "city": "Praha",
+        "region": "Banskobystrický",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": 75.3461135,
+        "lon": -17.40394
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Knižnica Morkovice-Slížany",
+      "address": {
+        "street": "Purkyňova 3",
+        "zipCode": "977 25",
+        "city": "Priekopa",
+        "region": "Olomoucký",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": 8.703081,
+        "lon": 92.503749
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Knižnica Koválov",
+      "address": {
+        "street": "Spinozova 803",
+        "zipCode": "053 03",
+        "city": "Stráňany",
+        "region": "Jihomoravský",
+        "country": "Czech Republic"
+      },
+      "location": {
+        "lat": -9.9188855,
+        "lon": -166.837171
+      },
+      "opening_hours": {
+        "cs": "Po, St, Pi 9:00-15:00"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Knižnica Uhliská",
+      "address": {
+        "street": "Černicová 6",
+        "zipCode": "235 55",
+        "city": "Kráľov Brod",
+        "region": "Prešovský",
+        "country": "Slovakia"
+      },
+      "location": {
+        "lat": -30.46864,
+        "lon": 158.382064
+      },
+      "opening_hours": {
+        "cs": "Po-Pi 9:00-17:00"
+      }
+    }
+  ]
+}
