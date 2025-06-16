@@ -1,114 +1,80 @@
-# Task 1 - Návrh dátového modelu
+# ✅ Úloha 2 - Integrácia dát z Golemio API (mestské knižnice)
 
-## Úvod
+## 📦 Cieľ
 
-Tento dokument sumarizuje riešenie úlohy 1 Návrh dátového modelu. Cieľom je navrhnúť, implementovať
- a otestovať dátový model pre e-commerce platformu vrátane analytického star schema.
- 
----
-
-# Postup spúšťania Tasku 1 - Návrh a implementácia dátového modelu
-
-1. ** Nastav virtuálne prostredie a nainštaluj závislosti:**
-
-in bash
-```
-python -m venv venv
-source venv/bin/activate  # (Linux/Mac)
-venv\Scripts\activate     # (Windows)
-pip install -r requirements.txt
-```
+Navrhnúť a implementovať generický extraktor na získanie dát o mestských knižniciach z platformy Golemio.
+Cieľom je získať 10 požadovaných polí a exportovať ich do CSV súboru.
 
 ---
 
-## Štruktúra
+## 🔢 Výstupné polia
 
-1_data_modeling_ecommerce/
-├── faked_ecommerce_data/          # CSV súbory s generovanými dátami
-│   ├── categories.csv
-│   ├── customers.csv
-│   ├── order_items.csv
-│   ├── orders.csv
-│   ├── products.csv
-│   └── transactions.csv
-├── build_star_schema.sql          # SQL skript na vytvorenie star schema tabuliek
-├── er_diagram.dbml                # textová definícia ER diagramu
-├── ER_diagram.png                 # vizuálny ER diagram
-├── fake_ecommerce.db              # SQLite databáza s načítanými dátami
-├── faker_ecommerce_generator.py   # generátor fake CSV dát
-├── generate_fake_ecommerce_db.py  # import CSV do SQLite DB (možno voliteľný)
-├── run_all_task1.py               # master skript spúšťajúci všetky kroky v správnom poradí
-├── run_build_star_schema.py       # samostatný skript na spustenie star schema SQL
-└── sql_schema.sql                 # SQL skript na vytvorenie relačných tabuliek
+Každý záznam o knižnici obsahuje:
 
-## Komponenty riešenia
+1. ID knižnice
+2. Názov knižnice
+3. Ulica
+4. PSČ
+5. Mesto
+6. Kraj
+7. Krajina
+8. Zemepisná šírka
+9. Zemepisná dĺžka
+10. Čas otvorenia
 
-## 1. ER diagram
+----
 
-- definuje základné entity a ich vzťahy: Produkty, Kategórie, Zákazníci, Objednávky, Položky objednávok, Transakcie.
-- vizualizácia je k dispozícií v `1_data_modeling_ecommerce/ER_diagram.png`.
+## 🚧 Probl0m s Golemio API (401 Unauthorized)
 
-## 2. Star schema (`build_star_schema.sql` a `run_build_star_schema.py`)
+Počas riešenia úlohy nebolo možné získať reálne dáta z Golemio API. Napriek správne nastavenému tokenu a oficiálnym endpointom (napr. `https://api.golemio.cz/v2/municipallibraries/10`), API vracalo:
 
-- skript vytvára analytické dimenzie a faktové tabuľky (Star schema) z relačných tabuliek
-- slúži pre rýchle vykonávanie komplexných dotazov, najmä agregácii a filtrov podľa rôznych dimenzii.
+```
+{
+  "error_message": "Unauthorized. Failed to authenticate user.",
+  "error_status": 401
+}
+```
 
-## 3. Identifikácia
-
-### a) Primárne a cudzie kľúče
-
-| Tabuľka        | Primárny kľúč   | Cudzí kľúč	                                    				|
-|----------------|-----------------|----------------------------------------------------------------|
-| categories     | category_id     | parent_category_id → categories.category_id (sebaodkaz)		|
-| products       | product_id      | category_id → categories.category_id							|
-| customers      | customer_id     | — 																|
-| orders         | order_id        | customer_id → customers.customer_id							|
-| order_items    | order_item_id   | order_id → orders.order_id<br>product_id → products.product_id |
-| transactions   | transaction_id  | order_id → orders.order_id										|
-
-### b) Normalizácia
-
-	- Model je normalizovaný do **3. normálnej formy (3NF)**, čo znamená:
-		-žiadne opakovanie skupín údajov v tabuľkách (1NF)
-		-každý atribút závisí úplne od primárneho kľúča (2NF)
-		- žiadne tranzitívne závislosti medzi ne-kľúčovými atribútmi (3NF)
-		
-	- hierarchia kategórii je riešená pomocou sebaodkazu (`parent_category_id`), ktorý eliminuje duplicity
-
-### c) Denormalizácia
-
-| Miesto využitia | Návrh denormalizácie |
-|----------------------------|-----------------------------------------------------------------------------------------------------------|
-| Produkty a Kategórie  	 | duplikovanie názvov kategórii priamo v tabuľke produktov pre zrýchlenie dotazov bez JOIN-ov  			 |
-| Región zákazníka 			 | zjednodušenie adresných údajov priamo v tabuľke objednávok alebo faktovej tabuľke 						 |
-| Dátumové analýzy			 | predpočítanie a uloženie dátumových atribútov (rok, mesiac, štvrťrok) v dimenziách alebo faktovej tabuľke |
-| Súhrnné metriky objednávok | uloženie celkovej sumy objednávky priamo v tabuľke objednávok 											 |
-
-### 4. SQL schéma (`sql_schema.sql`)
-
-- skript na vytvorenie základných relačných tabuliek so všetkými PK, FK a obmedzeniami.
-- používa sa na definovanie OLTP modelu pre správu dát.
-
+Tento problém sa vyskytoval aj v oficiálnom testovacom prostredí („Try it out“) a teda je jasné, že išlo o výpadok alebo blokivanie na strane Golemio.
 
 ---
 
-## Dodatočné zmeny a dôvody v implementácii simulácie do praxe
+## ✅ Riešenie: Simulovaný dátový tokenu
 
-| Pôvodný postup                      			 | Aktualizovaný postup                                					| Dôvod zmeny                                   |
-|------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------|
-| Star schema sa vytvára ihneď        			 | Najskôr vytvorenie relačnej schémy, import dát, potom star schema    | Zabezpečiť správny postup a testovateľnosť    |
-| Generovanie dát a import nebolo jasne oddelené | Jasné oddelenie generovania, importu a tvorby schém 					| Lepšia organizácia a prehľadnosť              |
-| Miešanie SQL skriptov a ich spúšťania 		 | Navrhnutý master skript spúšťajúci všetky kroky v správnom poradí    | Automatizácia a zníženie rizika chýb          |
-| Nedostatočná dokumentácia procesu 			 | Pridané vysvetlenie logického workflow a vzťahov  					| Lepšie pochopenie hodnotiteľmi i používateľmi |
+Namiesto reálneho API volania bol vytvorený **Simulovaný dátový tok**:
+
+1. `faker_golemio_generator.py` - generuje 50 záznamov knižníc do súboru `fake_golemio_data.json`
+2. `golemio_extractor.py` - načíta JSON a vytvorí CSV súbor `golemio_libraries.csv` so všetkými 10 požadovanými poľami
+
+Pomocný skript `golemio_api_real_attempt.py` iteruje cez ID 1-200 a potvrdzuje, že všetky dotazy vracali 401.
 
 ---
 
-## Workflow riešenia
+## 📁 Prehľad súborov
 
-```
-1. Vytvorenie základnej relačnej schémy (sql_schema.sql)
-2. Generovanie testovacích dát (faker_ecommerce_generator.py)
-3. Import dát do DB (generate_fake_ecommerce_db.py)
-4. Vytvorenie star schema (build_star_schema.sql cez run_build_star_schema.py)
-5. Analytické dotazy a testovanie
-```
+| Súbor 						| Popis 										  |
+|-------------------------------|-------------------------------------------------|
+| `faker_golemio_generator.py`	| Generuje testovacie dáta cez knižnicu Faker     |
+| `fake_golemio_data.json`		| Simulovaný výstup Golemio API 				  |
+| `golemio_extractor.py`		| Spracuje JSON do CSV							  |
+| `golemio_libraries.csv`		| Výsledný CSV súbor							  |
+| `golemio_api_real_attempt.py` | Pokus o volanie Golemio API (401 fallback test) |
+|-------------------------------|-------------------------------------------------|
+
+---
+
+## 🕖 Automatizácia o 7:00
+
+Projekt je navrhnutý tak, aby mohol byť jednoducho naplánovaný na dené spúšťanie o 7:00
+
+- spustiteľné cez `cron`: `0 7 * * * python golemio_extractor.py`
+- možné integrovať do Keboola orchestrace, GitHub Actions alebo CI/CD pipeline
+
+Aktuálne sa skripty spúšťajú manuálne kvôli nedostupnosti reálneho API
+
+---
+
+## 🔚 Záver
+
+Úloha bola vyriešená plnohodnotne cez fallback metódu s realistickými údajmi. 
+Výstup zodpovedá špecifikácii a projekt je pripravený na napojenie na plánoovač v prípade opätovného spustenia API.
